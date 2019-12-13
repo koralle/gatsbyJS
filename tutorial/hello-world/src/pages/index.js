@@ -1,15 +1,10 @@
-import React from "react"
-import { Link } from "gatsby";
-import Header from './header';
+import React from 'react';
+import App from './components/App/App'
 
-const App = () => {
-    return (
-        <div className="app-root">
-            <Header headerText ="Hello, Gatsby!" />
-            <Link to="/contact/">Contact</Link>
-            <h1>Hello, world!</h1>
-        </div>
+const Index = () => {
+    return(
+        <App />
     );
 }
 
-export default App;
+export default Index;

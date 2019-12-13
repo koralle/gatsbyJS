@@ -1,0 +1,14 @@
+.App-header {
+    background-color: #333333;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.App-header h1{
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.8;
+    color: aliceblue;
+}
