@@ -6,4 +6,13 @@
 
 module.exports = {
   /* Your site config here */
+  plugins: [
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+        head: true,
+      }
+    }
+  ]
 }
