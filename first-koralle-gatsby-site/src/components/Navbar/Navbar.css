@@ -1,0 +1,18 @@
+.App-navbar {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}
+
+.App-navbar-item {
+    display: flex;
+    list-style-type: none;
+    margin:  0;
+    padding: 0;
+    text-align: left;
+};
+
+.App-navbar-item p {
+    margin: 0;
+    line-height: 2.0;
+}

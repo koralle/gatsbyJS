@@ -1,0 +1,60 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.App-navbar {
+    background-color:rebeccapurple;
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+}
+
+.App-navbar > .App-navbar-item {
+    align-items: center;
+    height: 50px;
+    margin: 0;
+}
+
+.App-navbar >  p {
+    padding : 5px 20px;
+}
+
+.App-navbar > p:hover {
+
+}
+
+.App-navbar p a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.0;
+}
+
+.App-navbar-item ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-top: 9px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.App-navbar-item ul li {
+    list-style: none;
+}
+
+.App-navbar-item ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 2.0;
+    text-align: center;
+    display: block;
+    padding: 0 10px;
+}
+
